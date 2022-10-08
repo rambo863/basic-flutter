@@ -10,12 +10,16 @@ void main() {
     print(i);
   }
 
-  print('\n3. For in');
-  List<String> vokal = ['a', 'i', 'e', 'o'];
-  for (String huruf in vokal) {
-    print(huruf);
-  }
 
+void main()
+{
+    var GeeksForGeeks = 4;
+    int i = 1;
+    do {
+        print('Hello Geek');
+        i++;
+    } while (i <= GeeksForGeeks);
+}
   print('\nPerulangan While');
   print('1. While');
   bool bacaFile = true;
